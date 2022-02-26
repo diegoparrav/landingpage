@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #1F2937;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.header-content{
+    color: #f9faf8;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.hero{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
