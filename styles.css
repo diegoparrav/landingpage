@@ -87,6 +87,7 @@ a{
     align-items: center;
     justify-content: space-around;
     padding: 25px;
+    flex: 1 1 auto;
 }
 
 .information-header{
@@ -121,4 +122,63 @@ a{
     border-color: #3882F6;
     border-style: outset;
     border-radius: 10px;
+}
+
+.quote-section{
+    background-color: #E5E7eB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author{
+    align-self: flex-end;
+   font-weight: bold;
+   font-style: normal;
+}
+
+.sign-up{
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.call{
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.call-action{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: double;
+    align-self: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
 }
